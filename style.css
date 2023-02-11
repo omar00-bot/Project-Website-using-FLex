@@ -5,6 +5,7 @@ body{
 .top{
     background-color: #1f2937;
     padding: 0 100px;
+    padding-bottom: 32px;
 }
 .logo{
     font-family: 'Tourney', cursive;
@@ -54,7 +55,7 @@ ul.left-nav-links{
 }
 .intro-title{
     font-size: 80px;
-    font-weight: bolder;
+    font-weight: 800;
     margin: 0;
     color: #f9faf8;
     margin-bottom: 8px;
@@ -66,7 +67,7 @@ ul.left-nav-links{
     justify-content: center;
 }
 img{
-    width: 380px;
+    width: 420px;
     height: 500px;
     border-radius: 32px;
 }
@@ -78,10 +79,107 @@ img{
     cursor: pointer;
     border-radius: 8px;
     color: #e5e7eb;
+    font-weight: 900;
+   font-size: 16px;
 }
 button.button1{
     margin-top: 32px;
 }   
 button.button2{
-
+    border: 1px solid white;
+    margin-right: 100px;
 }  
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 100px;
+
+}
+.middle-text-info{
+    font-size: 32px;
+    font-weight: 800;
+    color: #1f2937;
+    margin: 100px auto 32px auto;
+}
+.services{
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 32px auto 100px auto;
+}
+.services-container{
+    height: auto;
+    width: 150px;
+    border: 1px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.services-container>p{
+    color: #000000a4;
+}
+.services-image{
+    height: 80px;
+    width: 80px;
+    margin-bottom: 8px;
+    border: 3px solid #7ea8ec85;
+    border-radius: 10px;
+}
+.testimonial{   
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.testimonial-text{
+    color: #000000a4;    
+    font-size: 32px;
+    text-align: justify;    
+    font-weight: lighter;
+}
+.testimonial-author{
+    color: #000000a4;
+    text-align: end;   
+    font-weight: bolder; 
+    font-size: 28px;
+}
+.call{
+    padding: 60px 150px;
+}
+.call-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    height: 100px;
+    border-radius: 16px;
+}
+.call-text{
+    padding-left: 100px;
+}   
+.call-title{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.call-p{
+    font-size: 12px;
+}
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer>p{
+    font-size: 10px;
+}
