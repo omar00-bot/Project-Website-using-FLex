@@ -1,25 +1,28 @@
 body{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .top{
     background-color: #1f2937;
     padding: 0 100px;
+}
+.logo{
+    font-family: 'Tourney', cursive;
+    font-size: 50px;
 }
 .navigation{
     display: flex;
     justify-content: space-between;
     padding-top: 8px;
 }
-a{
+a,h3,p{
     text-decoration: none;
     color: #e5e7eb;
+    margin: 0;
 }
 h2{
     margin: 0;
     color: white;
-}
-h3{
-    margin: 0;
 }
 li{
     display: flex;
@@ -32,6 +35,11 @@ ul.left-nav-links{
     margin: 0;
     padding: 0;
     display: flex;
+}
+.left-nav{
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }
 .top-links{
     display: flex;
@@ -48,7 +56,8 @@ ul.left-nav-links{
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
+    color: #f9faf8;
 }
 .intro-text{
-    width: 300px;
+    width: 350px;
 }
